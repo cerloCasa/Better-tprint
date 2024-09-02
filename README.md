@@ -47,22 +47,22 @@ and you want it printed on the console. If you use the vanilla `tprint(POKEMON)`
 but if you use the **Better tprint** function, the result looks like this:
 ```lua
 {
-  "EvolvesTo" = {
-     [1] = {
-        "TradeRequired" = false,
-        "ItemRequired" = false,
-        "LevelRequired" = 16,
-        "Name" = "Ivysaur",
-      },
-   },
-  "Level" = 5,
-  "Types" = {
+  Types = {
      [1] = "Grass",
      [2] = "Poison",
    },
-  "HP" = {
-     "Max" = 15,
-     "Current" = 15,
+  Level = 5,
+  HP = {
+     Max = 15,
+     Current = 15,
+   },
+  EvolvesTo = {
+     [1] = {
+        Name = "Ivysaur",
+        LevelRequired = 16,
+        ItemRequired = false,
+        TradeRequired = false,
+      },
    },
 }
 ```
