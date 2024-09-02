@@ -1,7 +1,6 @@
 # Better tprint
 Do you want to print your table but you are tired of the `tprint()` function and how it is junky as hell?  
-I mean look at this:  
-suppose you have this table
+I mean look at this: suppose you have this table
 ```lua
 local POKEMON = {
     Types = {
@@ -73,6 +72,7 @@ The **Better tprint** is designed to handle:
 - strings,
 - booleans,
 - functions
+  
 in a nice clean way so that you can tell them apart from each other.  
 ## How to use
 Download this mod and put it into your *Mods* folder, then you can use `tprint(element)` like you did before and it will show the improved result.  
