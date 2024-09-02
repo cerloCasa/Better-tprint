@@ -31,7 +31,7 @@ function tprint(element, indent)
         if type(element) == 'number' then
             return "["..tostring(element).."]"
         elseif type(element) == 'string' then
-            return "\""..element.."\""
+            return element
         end
     end
     local function FormatV(element, indent)
